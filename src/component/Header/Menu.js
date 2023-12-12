@@ -35,12 +35,12 @@ const Menus = ({ icon, children, pathname, ...rest }) => {
         borderRadius="lg"
         role="group"
         cursor="pointer"
-        // bgColor={isActive ? '#0a0a0a' : 'none'}
-        color={isActive ? 'black' : 'red'}
+        bgColor={isActive ? 'none' : 'none'}
+        color={isActive ? 'none' : 'none'}
         fontSize="20"
         _hover={{
-          bgColor: '#01050f',
-          color: 'white',
+          bgColor: 'whitesmoke',
+          color: 'black',
         }}
         {...rest}
       >

@@ -5,11 +5,11 @@ import About from "./component/About/About";
 
 function App() {
   return (
-    <Box bgColor='whitesmoke'>
+    <Box>
     <ChakraProvider>
       <CSSReset />
       <Header />
-      <Box pt='80px'>
+      <Box pt={{base:'30%', md: '20%', lg: '7%'}}>
       <About/>
       </Box>
 
