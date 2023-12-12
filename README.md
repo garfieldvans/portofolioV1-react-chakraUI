@@ -1,3 +1,8 @@
+## Try the demo here
+
+[DEMO](https://portofolio-v1-react-chakra-ui.vercel.app)
+________________________________
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
