@@ -5,14 +5,16 @@ import About from "./component/About/About";
 
 function App() {
   return (
-    <ChakraProvider >
+    <Box bgColor='whitesmoke'>
+    <ChakraProvider>
       <CSSReset />
       <Header />
-      <Box mt='100px' px='40px'>
+      <Box pt='80px'>
       <About/>
       </Box>
 
     </ChakraProvider>
+    </Box>
   );
 }
 

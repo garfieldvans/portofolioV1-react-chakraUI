@@ -2,13 +2,13 @@ import { Box, Center, HStack, Image, Text, VStack } from "@chakra-ui/react";
 
 const About = () => {
   return (
-    <Box height='600px' fontFamily='Rubik'>
+    <Box height='600px' fontFamily='Rubik' bgColor='whitesmoke'>
       <Center px='20%'>
         <VStack spacing='30px'>
-        <Image src={window.location.origin + '/profile.png'} boxSize='350px' />
+        <Image src={window.location.origin + '/profile.png'} boxSize='350px' boxSizing="content-box"/>
             <Box>
             <Text>Hi There</Text>
-            <Text fontWeight='700'>I am Sebastian Haloho</Text>
+            <Text fontWeight='700' fontSize='28px'>I am Sebastian Haloho</Text>
         <Text textAlign='justify' >
           I graduated in information systems at a university in Yogyakarta. I
           have enough understanding and experience to develop websites using
